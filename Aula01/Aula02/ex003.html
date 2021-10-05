@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body {
+            background-color: rgb(148, 241, 210);
+            color: black; /*comentario no CSS*/
+            font: normal 18pt arial
+        }
+        h1 { color: rgb(209, 212, 30);}
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1> <!--comentario no HTML-->
+    <p>Me livrei da maldição.</p>
+    <script>
+        var n1 = Number(window.prompt ("Digite um número ")); // O prompt recebe string, conversao de numero.
+        var n2 = Number(window.prompt ("Digite outro Número ")); //O prompt recebe string, conversao de numero.
+        var s = n1 + n2 
+        window.alert (`A soma entre ${n1} e ${n2} é igual a ${s}`) //formatação com ${ }
+        //+ (number + number) Adição
+        //+ (string + string) concatenação
+    </script>
+</body>
+</html>
